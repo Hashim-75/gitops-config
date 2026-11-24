@@ -4,4 +4,4 @@ namespace: staging
 images:
   - name: myapp
     newName: ghcr.io/hashim-75/myapp
-    newTag: initial
+    newTag: 9f8e7d6c5b4a...
