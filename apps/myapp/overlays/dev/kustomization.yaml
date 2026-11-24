@@ -1,7 +1,9 @@
 resources:
-  - ../../base
+- ../../base
 namespace: dev
 images:
-  - name: myapp
-    newName: ghcr.io/hashim-75/myapp
-    newTag: initial
+- name: myapp
+  newName: ghcr.io/hashim-75/myapp
+  newTag: dd78822e5ff39165d0c14ae439cdefa5f5646970
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
