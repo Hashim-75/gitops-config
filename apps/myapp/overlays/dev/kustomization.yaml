@@ -4,6 +4,6 @@ namespace: dev
 images:
 - name: myapp
   newName: ghcr.io/hashim-75/myapp
-  newTag: dd78822e5ff39165d0c14ae439cdefa5f5646970
+  newTag: f51cf5e95e5c6713086439fd40b1cef77fb89c7e
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
