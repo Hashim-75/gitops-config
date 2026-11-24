@@ -7,4 +7,4 @@ replicas:
 images:
   - name: myapp
     newName: ghcr.io/hashim-75/myapp
-    newTag: 9f8e7d6c5b4a...
+    newTag: dd78822e5ff39165d0c14ae439cdefa5f5646970
