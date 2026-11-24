@@ -1,0 +1,7 @@
+resources:
+  - ../../base
+namespace: staging
+images:
+  - name: myapp
+    newName: ghcr.io/hashim-75/myapp
+    newTag: initial

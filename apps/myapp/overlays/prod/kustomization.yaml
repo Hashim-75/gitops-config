@@ -1,0 +1,10 @@
+resources:
+  - ../../base
+namespace: prod
+replicas:
+  - name: myapp
+    count: 3
+images:
+  - name: myapp
+    newName: ghcr.io/hashim-75/myapp
+    newTag: initial
