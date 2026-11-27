@@ -1,6 +1,9 @@
 resources:
 - ../../base
 namespace: dev
+replicas:
+  - name: myapp
+    count: 3
 images:
 - name: myapp
   newName: ghcr.io/hashim-75/myapp
