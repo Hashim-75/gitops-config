@@ -7,6 +7,6 @@ replicas:
 images:
 - name: myapp
   newName: ghcr.io/hashim-75/myapp
-  newTag: d4d9d227f7487833ebd4d780cd14602e3885e392
+  newTag: 197604c0a2c1dea5a54f62ed15523804398cb22f
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
