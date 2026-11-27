@@ -2,11 +2,11 @@ resources:
 - ../../base
 namespace: dev
 replicas:
-  - name: myapp
-    count: 3
+- count: 3
+  name: myapp
 images:
 - name: myapp
   newName: ghcr.io/hashim-75/myapp
-  newTag: dd78822e5ff39165d0c14ae439cdefa5f5646970
+  newTag: d4d9d227f7487833ebd4d780cd14602e3885e392
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
